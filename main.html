@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pairs Arcade</title>
+    <script src="pairs.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>This is a game of finding pairs</h1>
+    <div id="innerContainer">
+        Select size:
+        <select id="sizeInput">
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+        </select>
+        <button onclick="startGame()">New game</button>
+        <br><br>
+    </div>
+    <table id="gameTable">
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+    <div>
+        Pairs found: <label id="found"></label><br>
+        Tries: <label id="tries"></label><br>
+        Average tries per pair: <label id="average"></label><br>
+    </div>
+    <button onclick="debug()">Surrender/Debug</button>
+</div>
+</body>
+</html>

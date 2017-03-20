@@ -1,0 +1,36 @@
+.hiddenButton {
+    color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 50px;
+    width: 50px;
+}
+
+.shownButton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+}
+
+.blankButton {
+    color: transparent;
+    background-color: #4c921d;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 50px;
+    width: 50px;
+}
+
+#container {
+    width: 650px;
+    margin: auto;
+}
+
+#innerContainer{
+    width: 100%;
+    margin: auto;
+}
